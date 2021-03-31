@@ -138,7 +138,7 @@ class ESRGAN_EESN_FRCNN_Model(BaseModel):
         self.log_dict = OrderedDict()
 
         self.print_network()  # print network
-        self.load()  # load G and D if needed
+        #self.load()  # load G and D if needed
     '''
     The main repo did not use collate_fn and image read has different flags
     and also used np.ascontiguousarray()
