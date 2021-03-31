@@ -24,8 +24,8 @@
     "data_loader": {
         "type": "COWCGANFrcnnDataLoader",
         "args":{
-            "data_dir_GT": "/content/Potsdam_ISPRS_datasets/HR/x4",
-            "data_dir_LQ": "/content/Potsdam_ISPRS_datasets/LR/x4",
+            "data_dir_GT": "/content/Potsdam_ISPRS_datasets/HR/x4/",
+            "data_dir_LQ": "/content/Potsdam_ISPRS_datasets/LR/x4/",
             "batch_size": 2,
             "shuffle": true,
             "validation_split": 0.0,
